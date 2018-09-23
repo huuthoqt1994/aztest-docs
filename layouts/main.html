@@ -1,0 +1,104 @@
+<%= render '/header_only.*' %>
+<body class="landing-page">
+    <!-- GITHUB BUTTON JS -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <!--FACEBOOK LIKE BUTTON JAVASCRIPT SDK-->
+    <div id="fb-root"></div>
+    <script>
+                    (function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id))
+                            return;
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));
+                </script>
+    <div class="page-wrapper">
+        <!-- ******Header****** -->
+        <header class="header text-center">
+            <div class="container">
+                <div class="branding">
+                    <h1 class="logo">
+                        <span aria-hidden="true" class="icon_documents_alt icon"></span> <span class="text-highlight">AZtest</span><span class="text-bold">Docs</span>
+                    </h1>
+                </div>
+                <!--//branding-->
+                <div class="tagline">
+                    <p>Tài liệu mở, hướng dẫn sử dụng AZtest</p>
+                    <p>AZtest, hệ thống tạo lập website thi trắc nghiệm hoàn toàn miễn phí</p>
+                </div>
+                <!--//tagline-->
+                <div class="social-container">
+                    <!-- Replace with your Facebook Button -->
+                    <div class="fb-like" data-href="https://aztest.vn" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+                </div>
+                <!--//social-container-->
+            </div>
+            <!--//container-->
+        </header>
+        <!--//header-->
+        <section class="cards-section text-center">
+            <div class="container">
+                <h2 class="title">Khởi đầu dễ dàng với AZtest, tất cả nằm ở trang này</h2>
+                <div class="intro">
+                    <p>
+                        Đây là tài liệu mở, bạn hoàn toàn có thể tùy chỉnh, phát triển, sửa đổi nội dung<br />Click vào <strong>Đăng ký website</strong> bên dưới nếu bạn chưa sở hữu website tại AZtest!</strong>
+                    </p>
+                    <div class="cta-container">
+                        <a class="btn btn-success btn-cta" href="https://aztest.vn/about/" target="_blank"><i class="fas fa-sign"></i> Về AZtest</a> <a class="btn btn-primary btn-cta" href="https://aztest.vn/bang-so-sanh-tinh-nang.html" target="_blank"><i class="fas fa-sign"></i> Đăng ký website</a>
+                    </div>
+                    <!--//cta-container-->
+                </div>
+                <!--//intro-->
+                <div id="cards-wrapper" class="cards-wrapper row">
+                    <div class="item item-green col-lg-4 col-6">
+                        <div class="item-inner" style="cursor: pointer;">
+                            <div class="icon-holder">
+                                <i class="icon fa fa-paper-plane"></i>
+                            </div>
+                            <!--//icon-holder-->
+                            <h3 class="title">Bắt đầu</h3>
+                            <p class="intro">Các thiết lập cần thiết cho website mới</p>
+                            <a class="link" href="/start"><span></span></a>
+                        </div>
+                        <!--//item-inner-->
+                    </div>
+                    <!--//item-->
+                    <div class="item item-pink item-2 col-lg-4 col-6">
+                        <div class="item-inner">
+                            <div class="icon-holder">
+                                <span aria-hidden="true" class="icon icon_id-2"></span>
+                            </div>
+                            <!--//icon-holder-->
+                            <h3 class="title">Quản trị Trắc nghiệm</h3>
+                            <p class="intro">Hướng dẫn sử dụng module Trắc nghiệm</p>
+                            <a class="link" href="/test"><span></span></a>
+                        </div>
+                        <!--//item-inner-->
+                    </div>
+                    <!--//item-->
+                    <div class="item item-blue col-lg-4 col-6">
+                        <div class="item-inner">
+                            <div class="icon-holder">
+                                <span aria-hidden="true" class="icon icon_cog"></span>
+                            </div>
+                            <!--//icon-holder-->
+                            <h3 class="title">Quản trị hệ thống</h3>
+                            <p class="intro">Hướng dẫn quản trị module hệ thống, các module khác</p>
+                            <a class="link" href="/system"><span></span></a>
+                        </div>
+                        <!--//item-inner-->
+                    </div>
+                </div>
+                <!--//cards-->
+            </div>
+            <!--//container-->
+        </section>
+        <!--//cards-section-->
+    </div>
+    <!--//page-wrapper-->
+    <%= render '/footer.*' %>
+</body>
+</html>

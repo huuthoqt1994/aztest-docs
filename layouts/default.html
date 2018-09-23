@@ -1,0 +1,27 @@
+<%= render '/header_only.*' %> <%= render '/header_extend.*' %>
+<div class="doc-wrapper">
+    <div class="container" style="position: relative;">
+        <div style="position: absolute; right: 0; top: 0"><%= edit_on_github(@item) %></div>
+        <% if @item[:title] %>
+        <h1 class="article-title" itemprop="name"><%= @item[:title] %><%= @item[:title_badge] %></h1>
+        <hr />
+        <% end %>
+        <div class="doc-body row">
+            <div class="doc-content col-md-9 col-12 order-1">
+                <div class="content-inner doc-section"><%= yield %></div>
+                <!--//content-inner-->
+            </div>
+            <!--//doc-content-->
+            <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
+                <div class="clearfix"></div>
+                <div id="doc-nav" class="doc-nav">
+                    <nav id="doc-menu" class="nav doc-menu flex-column sticky anchorific"></nav>
+                </div>
+            </div>
+            <!--//doc-sidebar-->
+        </div>
+        <!--//doc-body-->
+    </div>
+    <!--//container-->
+</div>
+<%= render '/footer.*' %>
