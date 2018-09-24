@@ -13,24 +13,27 @@ Tiến hành khai báo thông tin vào biểu mẫu, thông tin của bạn cầ
 
 ## Đăng nhập khu vực quản trị
 
-Sau khi tiến hành đăng ký khởi tạo thành công, hệ thống AZtest xét duyệt và gửi email thông báo về cho bạn như hình dưới đây.
+->Sau khi tiến hành đăng ký khởi tạo thành công, hệ thống AZtest xét duyệt và gửi email thông báo về cho bạn như hình dưới đây.
 ![](images/start/email_xac_nhan.PNG)
-Tiến hành vào website mà bạn đăng ký để đăng nhập.
-lưu ý: để đăng nhập vào khu vực quản trị chúng ta điền tên miền + admin ( ví dụ : http://huutho.aztest.vn/admin/ ).Điền thông tin mà email hệ thống AZtest đã gửi về để đăng nhập.
+Tiến hành vào website mà bạn đăng ký để đăng nhập.<-
+
+Lưu ý: để đăng nhập vào khu vực quản trị chúng ta điền tên miền + admin ( ví dụ : http://huutho.aztest.vn/admin/ ).
+
+->->Điền thông tin mà email hệ thống AZtest đã gửi về để đăng nhập.
 ![](images/start/dang_nhap.PNG)
 Sau đó chọn khu vực quản lý site để vào khu vực quản trị.
 ![](images/start/chon_khu_vuc.PNG)
 Và đây là khu vực quản trị của bạn.
-![](images/start/khu_vuc_quan_tri.PNG)
+![](images/start/khu_vuc_quan_tri.PNG)<-<-
 
-## Đăng xuất khu vực quản trị
+->->## Đăng xuất khu vực quản trị
 Để đăng xuất khu vực quản trị, chúng
  ta chọn tài khoản và thoát khỏi tài khoản quản trị.
 ![](images/start/dang_xuat.png)	
 ## Thay đổi thông tin tài khoản
 Để thay đổi thông tin tài khoản	bạn vào mục tài khoản và chọn sửa. 
 ![](images/start/sua_tai_khoan.png) 
-Điền các thông tin cần thay đổi và bấm lưu.
+Điền các thông tin cần thay đổi và bấm lưu.<-<-
 
 ## Chuyển đổi gói dịch vụ
 
@@ -50,12 +53,15 @@ Trường hợp bạn chưa có tên miền, muốn mua tên miền mới, chún
 
 **Tôi thấy website khá hay, rất hiệu quả cho vấn đề giáo dục hiện nay và tôi muốn dùng ở các kỳ thi tập trung không ? **
 
-AZtest không được thiết kế để làm việc này. Hệ thống AZtestPro của chúng tôi có thể đáp ứng được nhu cầu của bạn, bạn xem giới thiệu chi tiết hơn tại AZtestPro - Hệ thống tổ chức thi trắc nghiệm tập trung
+AZtest không được thiết kế để làm việc này. Hệ thống AZtestPro của chúng tôi có thể đáp ứng được nhu cầu của bạn, bạn xem giới thiệu chi tiết hơn tại AZtestPro - Hệ thống tổ chức thi trắc nghiệm tập trung.
 
 Vui lòng liên hệ với chúng tôi để được tư vấn chi tiết:
 
 CÔNG TY TNHH PHÁT TRIỂN VÀ DỊCH VỤ NGUỒN MỞ THUẬN ĐỨC
+
 Điện thoại: 02336 270 610
+
 Hotline: 0905 908 430 (hỗ trợ 24/7)
-Email: contact@tdfoss.vn
+
+Email: contact@tdfoss.vn.
 
