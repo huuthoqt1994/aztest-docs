@@ -20,15 +20,16 @@ Tiến hành vào website mà bạn đăng ký để đăng nhập.
 Lưu ý: để đăng nhập vào khu vực quản trị chúng ta điền tên miền + admin ( ví dụ : http://huutho.aztest.vn/admin/ ).
 
 Điền thông tin mà email hệ thống AZtest đã gửi về để đăng nhập.
-![](file:///C:/xampp/htdocs/aztest/content/images/start/dang_nhap.PNG)
+![](images/start/dang_nhap.PNG)
+
 Sau đó chọn khu vực quản lý site để vào khu vực quản trị.
 ![](images/start/chon_khu_vuc.PNG)
+
 Và đây là khu vực quản trị của bạn.
 ![](images/start/khu_vuc_quan_tri.PNG)
 
 ## Đăng xuất khu vực quản trị
-Để đăng xuất khu vực quản trị, chúng
- ta chọn tài khoản và thoát khỏi tài khoản quản trị.
+Để đăng xuất khu vực quản trị, chúng ta chọn tài khoản và thoát khỏi tài khoản quản trị.
 ![](images/start/dang_xuat.png)	
 ## Thay đổi thông tin tài khoản
 Để thay đổi thông tin tài khoản	bạn vào mục tài khoản và chọn sửa. 
@@ -51,7 +52,7 @@ Bạn có thể liên hệ với AZtest hoặc đưa ý tưởng lên các kênh
 Nếu đã có tên miền, vui lòng trỏ tên miền về IP 61.14.235.164, sau đó liên hệ với chúng tôi đễ được hỗ trợ chuyển đổi tên miền.
 Trường hợp bạn chưa có tên miền, muốn mua tên miền mới, chúng tôi sẵn sàng cung cấp và hỗ trợ cấu hình tên miền mới cho website của bạn. Liên hệ để được tư vấn về giá.
 
-**Tôi thấy website khá hay, rất hiệu quả cho vấn đề giáo dục hiện nay và tôi muốn dùng ở các kỳ thi tập trung không ? **
+**Tôi thấy website khá hay, rất hiệu quả cho vấn đề giáo dục hiện nay và tôi muốn dùng ở các kỳ thi tập trung không ?** 
 
 AZtest không được thiết kế để làm việc này. Hệ thống AZtestPro của chúng tôi có thể đáp ứng được nhu cầu của bạn, bạn xem giới thiệu chi tiết hơn tại AZtestPro - Hệ thống tổ chức thi trắc nghiệm tập trung.
 
