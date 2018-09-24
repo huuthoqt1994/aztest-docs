@@ -406,7 +406,7 @@ input[type="text"], input[type="email"], input[type="password"], input[type="sub
 
 .doc-section h2 {
     font-size: 26px;
-    margin-top: 0;
+    margin-top: 10px;
     margin-bottom: 0;
     font-weight: bold;
     padding-bottom: 10px;
@@ -1106,6 +1106,9 @@ input[type="text"], input[type="email"], input[type="password"], input[type="sub
     .promo-block .promo-title {
         margin-bottom: 30px;
     }
+    .branding .btn{
+       display: none;
+    }
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -1372,4 +1375,8 @@ input[type="text"], input[type="email"], input[type="password"], input[type="sub
 
 #doc-menu ul li{
     padding: 10px 0 10px 0   
+}
+
+.branding .btn{
+    float: right;
 }
