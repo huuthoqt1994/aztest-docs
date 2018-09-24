@@ -19,7 +19,7 @@ Tiến hành vào website mà bạn đăng ký để đăng nhập.
 
 Lưu ý: để đăng nhập vào khu vực quản trị chúng ta điền tên miền và thêm admin ở phía sau tên miền (ví dụ: http://huutho.aztest.vn/admin/).
 
-Điền thông tin mà email hệ thống AZtest đã gửi về để đăng nhập.
+Điền thông tin đăng nhập chứa trong email hệ thống AZtest đã gửi về cho bạn để đăng nhập.
 ![](images/start/dang_nhap.PNG)
 
 Sau đó chọn khu vực quản lý site để vào khu vực quản trị.
@@ -43,7 +43,7 @@ Nếu có nhu cầu chuyển đổi gói dịch vụ, bạn vui lòng liện h�
 ## Các câu hỏi thường gặp
 **Tôi có thể yêu cầu thêm các tính năng ở website của tôi không?**
 
-AZtest sẵn sàng mở rộng tính năng áp dụng cho từng website cụ thể trong cùng hệ thống. Để làm phong phú hơn website của bạn, bạn có thể yêu cầu AZtest lập trình thêm tính năng. Nếu là tính năng mang tính cá nhân, bạn sẽ phải trả một khoản phí cho việc xây dựng tính năng đó, ngược lại nếu tính năng mang tính cộng đồng (ai cũng có nhu cầu) thì AZtest sẽ bổ sung cho hệ thống của chúng ta hay hơn mà bạn không cần một khoản phí nào.
+AZtest sẵn sàng mở rộng tính năng áp dụng cho từng website cụ thể trong cùng hệ thống. Để làm phong phú hơn website của bạn, bạn có thể yêu cầu AZtest lập trình thêm tính năng. Nếu là tính năng mang tính cá nhân, bạn sẽ phải trả một khoản phí cho việc xây dựng tính năng đó, ngược lại nếu tính năng mang tính cộng đồng (ai cũng có nhu cầu) thì AZtest sẽ bổ sung cho hệ thống của chúng ta hay hơn mà bạn không mất một khoản phí nào.
 
 Bạn có thể liên hệ với AZtest hoặc đưa ý tưởng lên các kênh thảo luận.
 
@@ -62,9 +62,9 @@ Vui lòng liên hệ với chúng tôi để được tư vấn chi tiết:
 
 CÔNG TY TNHH PHÁT TRIỂN VÀ DỊCH VỤ NGUỒN MỞ THUẬN ĐỨC.
 
-Điện thoại: +84-2336270610.   
+Điện thoại: +84-2336270610
 
-Hotline: +84-905908430 (hỗ trợ 24/7).
+Hotline: +84-905908430 (hỗ trợ 24/7)
 
-Email: contact@tdfoss.vn.
+Email: contact@tdfoss.vn
 
