@@ -42,6 +42,13 @@ Trong một hệ thống quản lý website có rất nhiều module và để q
 
 ![](images/system/them_nhom_thanh_vien.png)
 
+Để thêm nhóm người dùng cần chú ý các vấn đề sau:
+* Các trường có dấu (*) là những trường bắt buộc người dùng phải nhập.
+* Trường "Hiệu lực đến" sẽ giúp người dùng muốn nhóm thành viên có quyền hạn sử dụng.
+* Mục loại nhóm sẽ cho phép người dùng chọn tính chất của loại nhóm.
+* Ở mục bắt buộc xác thực hai bước khu vực quản trị và ngoài site giúp người dùng tăng khả năng bảo mật của tài khoản, khi dùng chức năng này người dùng đăng nhập bằng tài khoản hệ thống sẽ xác nhận lại đăng nhập bằng tin nhắn hoặc là email. 
+* Ở mục quyền hạn sử dụng người dùng có thể phân quyền cho tài khoản.
+
 ### Sửa thông tin nhóm
 
 Để sửa thông tin nhóm người dùng chọn nhóm thành viên và chọn chế độ sửa , điền những thông tin muốn sửa và lưu những thông tin cần sửa cho phù hợp.
@@ -64,7 +71,12 @@ Tương tự chức năng sửa nhóm người dùng chọn nhóm cần xóa và
 
 ### Thêm tài khoản
 
-Thêm tài khoản người dùng cần chọn vào mục thêm tài khoản mới, điền đầy đủ thông tin tài khoản và lưu tài khoản cần thêm.
+Thêm tài khoản người dùng cần chọn vào mục thêm tài khoản mới, điền đầy đủ thông tin tài khoản và lưu tài khoản cần thêm. Khi thêm tài khoản người dùng cần lưu ý những chi tiết sau:
+
+* Tên tài khoản không được trùng với tài khoản khác.
+* Những trường có dấu (*) là những trường bắt buộc người dùng phải nhập.
+* Trường mật khẩu người dùng có thể tạo ngẫu nhiên và phải ghi nhớ để đăng nhập sử dụng.
+* Ở mục là tài khoản của nhóm người dùng chọn nhóm mà người dùng muốn phân loại tài khoản.
 
 ![](images/system/them_tai_khoan.png)
 
@@ -75,8 +87,9 @@ Thêm tài khoản người dùng cần chọn vào mục thêm tài khoản m�
 ### Xóa tài khoản
 
 Nếu mọi người muốn xóa tài khoản của một thành viên nào muốn xóa và chọn xóa.
+Sau khi chọn tài khoản và bchonj xóa hệ thống sẽ xác nhận lại nếu người dùng muốn chắc chắn xóa tài khoản đó. Nếu chắc chắn người dùng chọn OK còn không người dùng chọn Hủy.
 
-![](images/system/xoa_tai_khoan.png)
+![](images/system/xac_nhan_xoa_tai_khoan.png)
 
 ### Thêm trường thông tin thành viên
 
