@@ -17,7 +17,7 @@ Cấu hình email gửi thư chúng ta cần vào "Cấu hình site" và chọn 
 ![](images/system/cau_hinh_email.png)
 
 ## Quản lý module
-Trong hệ thống quản lý website có rất nhiều module và để quản lý được cái module người dùng chọn menu "Quản lý module". Mục quản lý module giúp người dùng quản lý từng module nhỏ trong hệ thống website.
+Trong một hệ thống quản lý website có rất nhiều module và để quản lý được module người dùng muốn quản lý người dùng chọn menu "Quản lý module". Mục quản lý module giúp người dùng quản lý từng module nhỏ trong hệ thống website.
 
 ![](images/system/quan_ly_module.png)
 
@@ -27,9 +27,11 @@ Trong hệ thống quản lý website có rất nhiều module và để quản 
 
 ![](images/system/quan_ly_giao_dien.png)
 
+Ở mục "Quản lý giao diện" người dùng có thể thiết lập giao diện, layout và quản lý các block.
+
 ## Quản lý nhóm thành viên
 
-Để quản lý hệ nhóm thành viên người dùng chọn "Tài khoản và chọn nhóm thành viên", ở mục nhóm thành viên người dùng có thể quản lý tất cả các nhóm thành viên bằng các phân quyền có sẵn như tạo nhóm thành viên, thêm, sửa, xóa tài khoản thành viên và nhiều phần quyền khác. Các nhóm thành viên đều có hiệu lực riêng tùy vào người sử dụng phân quyền.
+Để quản lý nhóm thành viên người dùng chọn "Tài khoản và chọn nhóm thành viên", ở mục nhóm thành viên người dùng có thể quản lý tất cả các nhóm thành viên bằng các phân quyền có sẵn như tạo nhóm thành viên, thêm, sửa, xóa tài khoản thành viên và nhiều phần quyền khác. Các nhóm thành viên đều có hiệu lực riêng tùy vào người sử dụng phân quyền.
 
 ![](images/system/nhom_thanh_vien.png) 
 
@@ -56,7 +58,7 @@ Tương tự chức năng sửa nhóm người dùng chọn nhóm cần xóa và
 
 ## Quản lý tài khoản thành viên
 
-Để quản lý tài khoản thành viên người dùng chọn mục tài khoản.
+Để quản lý tài khoản thành viên người dùng chọn mục tài khoản. Ở mục tài khoản sẽ hiện ra tất cả các thông tin, các thành viên trên website
 
 ![](images/system/tai_khoan.png)
 
@@ -68,7 +70,7 @@ Thêm tài khoản người dùng cần chọn vào mục thêm tài khoản m�
 
 ### Sửa thông tin tài khoản
 
-Để sửa thông tin tài khoản người dùng chọn tài khoản cần sửa và chọn sửa, sau khi điền thông tin cần sửa người dùng bấm lưu để lưu thông tin cần chĩnh sửa.
+Để sửa thông tin tài khoản người dùng chọn tài khoản cần sửa và chọn sửa, sau khi điền thông tin cần sửa người dùng bấm lưu để lưu thông tin cần chỉnh sửa.
 
 ### Xóa tài khoản
 
