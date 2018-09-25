@@ -109,6 +109,7 @@ Sau khi chọn tài khoản và bchonj xóa hệ thống sẽ xác nhận lại 
 
 ![](images/system/nhap_file_excel.png)
 Chọn tệp có chưa thông tin thành viên và bắt đầu kiểm tra, sau khi kiểm tra thành công người dùng sẽ tới bước cấu hình các tài khoản vừa được nhập vào. và cuối cùng là thực hiện lưu lạ danh sách các thành viên cần nhập vào.
+
 Lưu ý : Khi chọn tệp file Excel, file Excel phải chứa đúng định dạng. 
 ## Bổ nhiệm người quản trị
 
