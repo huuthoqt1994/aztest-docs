@@ -77,6 +77,7 @@ Thêm tài khoản người dùng cần chọn vào mục thêm tài khoản m�
 * Những trường có dấu (*) là những trường bắt buộc người dùng phải nhập.
 * Trường mật khẩu người dùng có thể tạo ngẫu nhiên và phải ghi nhớ để đăng nhập sử dụng.
 * Ở mục là tài khoản của nhóm người dùng chọn nhóm mà người dùng muốn phân loại tài khoản.
+* Mục tùy chọn khác giúp người dùng kiểm tra giá trị nhập vào của trường dữ liệu.
 
 ![](images/system/them_tai_khoan.png)
 
@@ -94,6 +95,10 @@ Sau khi chọn tài khoản và bchonj xóa hệ thống sẽ xác nhận lại 
 ### Thêm trường thông tin thành viên
 
 Để thêm trường thông tin thành viên người dùng cần chọn "Tùy biến dữ liệu" trong mục tài khoản.
+Ở mục này người dùng cần lưu ý:
+*  Những trường có dấu (*) là những trường bắt buộc người dùng phải nhập.
+* Ở mục trường dữ liệu bắt buộc giúp người dùng tùy chỉnh trường dữ liệu có bắt buộc hay không ?
+* Ở mục loại dữ liệu người dùng có thể tùy biển kiểu nhập dữ liệu.
 
 ![](images/system/them_truong_du_lieu.png)
 Điền trường dữ liệu cần thêm và bấm lưu, trường dữ liệu người dùng thêm vào sẽ được hiển thị khi thêm nhân viên và ở bảng trường thông tin thành viên.
@@ -104,6 +109,7 @@ Sau khi chọn tài khoản và bchonj xóa hệ thống sẽ xác nhận lại 
 
 ![](images/system/nhap_file_excel.png)
 Chọn tệp có chưa thông tin thành viên và bắt đầu kiểm tra, sau khi kiểm tra thành công người dùng sẽ tới bước cấu hình các tài khoản vừa được nhập vào. và cuối cùng là thực hiện lưu lạ danh sách các thành viên cần nhập vào.
+Lưu ý : Khi chọn tệp file Excel, file Excel phải chứa đúng định dạng. 
 ## Bổ nhiệm người quản trị
 
 Để bổ nhiệm một thành viên làm người quản trị, người dùng cần chọn tài khoản cần bổ nhiệm sau đó tích vào ô "Là tài khoản của nhóm" và chọn nhóm mà người dùng muốn bổ nhiệm.
