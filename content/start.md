@@ -13,32 +13,39 @@ Tiến hành khai báo thông tin vào biểu mẫu, thông tin của bạn cầ
 
 ## Đăng nhập khu vực quản trị
 
-Sau khi tiến hành đăng ký khởi tạo thành công, hệ thống AZtest xét duyệt và gửi email thông báo về cho bạn như hình dưới đây.
-![](images/start/email_xac_nhan.PNG)
-Tiến hành vào website mà bạn đăng ký để đăng nhập.
+Sau khi khởi tạo thành công, hệ thống AZtest xét duyệt và gửi email thông báo về cho bạn như hình dưới đây. Email này chứa thông tin về website (Tên miền, tiêu đề, tài khoản quản trị,....) và các thông tin cần lưu ý khác. Bạn cần lưu ý ghi nhớ **Tên truy cập** và **Mật khẩu** để dùng cho việc xác thực thông tin quản trị bên dưới.
 
-Lưu ý: để đăng nhập vào khu vực quản trị chúng ta điền tên miền và thêm admin ở phía sau tên miền (ví dụ: http://huutho.aztest.vn/admin/).
+![](images/start/email_xac_nhan.PNG)
+
+Để đăng nhập vào khu vực quản trị, bạn cần truy cập vào URL đăng nhập khu vực quản trị, URL này có câu trúc `http://domain/admin/` (với domain là tên miền của bạn). Ví dụ: http://huutho.aztest.vn/admin/
+
+```
+Nội dung email có chứa URL đăng nhập, bạn có thể click vào liên kết đăng nhập quản trị ở nội dung email
+```
 
 Điền thông tin đăng nhập chứa trong email hệ thống AZtest đã gửi về cho bạn để đăng nhập.
 ![](images/start/dang_nhap.PNG)
 
-Sau đó chọn khu vực quản lý site để vào khu vực quản trị.
-![](images/start/chon_khu_vuc.PNG)
-
-Và đây là khu vực quản trị của bạn.
+Và đây là giao diện khu vực quản trị của bạn.
 ![](images/start/khu_vuc_quan_tri.PNG)
 
 ## Đăng xuất khu vực quản trị
+
 Để đăng xuất khu vực quản trị, chúng ta chọn tài khoản và thoát khỏi tài khoản quản trị.
+
 ![](images/start/dang_xuat.png)	
+
 ## Thay đổi thông tin tài khoản
-Để thay đổi thông tin tài khoản	bạn vào mục tài khoản và chọn sửa. 
+
+- Click vào menu **Tài khoản** (Menu dọc, bên trái màn hình)
+- Tại danh sách **Tài khoản** thành viên, click biểu tượng **Sửa** ở cuối tên thành viên bạn muốn sửa đổi thông tin
+- Tiến hành điều chỉnh thông tin, sau đó nhấn nút **Lưu** ở cuối trang để kết thúc
+
 ![](images/start/sua_tai_khoan.png) 
-Điền các thông tin cần thay đổi và bấm lưu.
 
 ## Chuyển đổi gói dịch vụ
 
-Nếu có nhu cầu chuyển đổi gói dịch vụ, bạn vui lòng liện hệ với bộ phận AZtest để đội ngũ Atest hỗ trợ kịp thời và sớm nhất cho bạn.
+Khi muốn chuyển đổi gói dịch vụ, vui lòng liên hệ với AZtest tại [đây](https://aztest.vn/contact/) để được hỗ trợ. Sau khi nhận yêu cầu, bộ phận chăm sóc khách hàng của AZtest sẽ liên hệ để thực hiện một số thủ tục, website của bạn sẽ được tự động chuyển đổi gói dịch vụ sau khi giao dịch thành công.
 
 ## Các câu hỏi thường gặp
 **Tôi có thể yêu cầu thêm các tính năng ở website của tôi không?**
