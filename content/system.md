@@ -136,4 +136,3 @@ Lưu ý : Khi chọn tệp file Excel, file Excel phải chứa đúng định d
 
 ![](images/system/bo_nhiem.png)
 
-quản lý giao dien co san
