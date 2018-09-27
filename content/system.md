@@ -3,33 +3,49 @@ title: Quản trị hệ thống
 ---
 
 ## Cấu hình thông tin website
-Để cấu hình thông tin website bạn đăng nhập vào quản trị website sau đó vào mục cấu hình và chọn "**Cấu hình site**". 
+Để cấu hình thông tin website bạn cần thao tác như sau.
+
+Bước 1: Đăng nhập vào quản trị website.
+
+Bước 2: Sau đó vào mục cấu hình và chọn "**Cấu hình site**". 
 ![](images/system/cau_hinh_site.png)
 
 Trong mục cấu hình site chúng ta có thể cấu hình các phần như tên miền, tên gọi của website và ảnh của website ... 
 
-Sau khi cấu hình xong chúng ta chọn "**Lưu cấu hình**" để lưu các thay đổi.
+Sau khi cấu hình xong chúng ta chọn "**Lưu cấu hình**" để lưu cấu hình cài đặt.
 
 ## Cấu hình máy chủ gửi thư (Email)
-Mặc định, website ó thể gửi thư đi bằng cấu hình gửi thư của AZtest. Nếu bạn muốn sử dụng máy chủ gửi thư riêng, thì có thể cấu hình lại máy chủ gửi mail theo hướng dẫn bên dưới.
+Mặc định khi chưa cáu hình email, website đã cấu hình gửi email cho khách hàng, nhưng khi gửi email tên người hoặc đơn vị sẽ là mặc định tên của máy chủ mail.
 
-1. Từ giao diện quản tri, truy cập **Cấu hình / Cấu hình SMTP**
-2. Chọn giao thức **SMPT** và điền các thông số như hình hướng dẫn rồi lưu lại.
+Để  cấu hình email theo đơn vị hoặc người hiện hành đang sử dụng chúng ta làm như sau.
+
+Bước 1: Cấu hình email gửi thư chúng ta cần vào "**Cấu hình site**" và chọn "**Cấu hình SMTP**".
+
+Bước 2: Chọn giao thức SMPT và điền các thông số như hình hướng dẫn rồi lưu lại.
 
 ![](images/system/cau_hinh_email.png)
 
-```
-- Mỗi máy chủ gửi thư có thể có các cấu hình khác nhau, bạn cần xác định được các thông số trước khi khai báo
-- Tham khảo cấu hình gửi thư bằng Gmail tại (đây)[https://mynukeviet.net/su-dung-nukeviet/huong-dan-cau-hinh-gmail-smtp-cho-nukeviet-194.html]
-```
+> Lưu ý: 
+> 
+> * Nếu sử dụng xác thực SSL thì chúng ta chọn cổng 465, xác thức TLS cổng 587.
+> Tên tài khoản 
+> * Tên tài khoản gửi mail là tên tài khoản email của người dùng.
+> * Mật khẩu ứng dụng là mật khẩu ứng dụng email của người dùng, để tạo mật khẩu ứng dụng tìm hiểu kỹ hơn người dùng có thể tham khảo.
+> [tại đây](https://vsoft.com.vn/Blog/huong-dan-lay-mat-khau-ung-dung-mail-de-gui-mail-smtp-15.html).
 
 ## Quản lý module
-Trong một hệ thống quản lý website có rất nhiều module và để quản lý được module người dùng muốn quản lý người dùng chọn menu "**Quản lý module**". Mục quản lý module giúp người dùng quản lý từng module nhỏ trong hệ thống website.
+Trong một hệ thống quản lý website có rất nhiều module và để quản lý được module người dùng muốn quản lý người dùng cần chọn menu "**Quản lý module**". Mục quản lý module giúp người dùng quản lý từng module nhỏ trong hệ thống website.
 
 ![](images/system/quan_ly_module.png)
 
 Ở mục quản lý module người dùng có thể tháo tác can thiệp vào các module như kích hoạt, nghưng kích hoạt, sửa, cài lại và xóa.
-Nếu cái lại module người dùng có thể chọn cài lại nhưng không cài lại dữ liệu mẫu hoặc cài lại có dữ liệu mẫu.
+Nếu cài lại module người dùng có thể làm như sau:
+
+Bước 1: Chọn module cần cài và chọn cài lại.
+
+Bước 2: Khi cài đặt module nếu module có dữ liệu mẫu bạn cần thao tác chọn cách thức cài đặt có chứa dữ liệu mẫu hoặc là không, và chọn cài đặt.
+
+Bước 3: Sau khi cài đặt thành công chọn hoàn tất.
 
 > * Lưu ý: việc cài lại module này chỉ cho phép đối với các module chứa trong hệ thống, hoặc là các module của hệ thống AZtest cung cấp cho người dùng.
 
@@ -41,8 +57,15 @@ Nếu cái lại module người dùng có thể chọn cài lại nhưng không
 
 Ở mục "**Quản lý giao diện**" người dùng có thể thiết lập giao diện, layout và quản lý các block.
 
+Để thay đổi kích hoạt người dùng có thể tháo tác sau:
+
+Bước 1: Chọn giao diện người dùng muốn kích hoạt hoặc cài đặt.
+
+Bước 2: Chọn kích hoạt giao diện sử dụng.
+
 Quản lý giao diện là nơi người dùng có thể tùy chỉnh layout bố cục của website hoặc tùy chỉnh các block theo ý muốn của người dùng.
 > Lưu ý: Các giao diện và block người dùng cài đặt thiết lập chỉ có trong hệ thống.
+
 > Các giao diện mặc định của hệ thống, bạn không được xóa, đổi tên và không nên sửa trực tiếp vào giao diện này. Nếu muốn, hãy copy thành giao diện khác và kích hoạt sử dụng giao diện mới đó để chỉnh sửa và sử dụng.
 
 ## Quản lý nhóm thành viên
@@ -58,8 +81,18 @@ Quản lý giao diện là nơi người dùng có thể tùy chỉnh layout b�
 
 ![](images/system/them_nhom_thanh_vien.png)
 
-Để thêm nhóm người dùng cần chú ý các vấn đề sau:
+Để thêm nhóm thành viên người dùng cần thao tác:
+
+Bước 1: Chọn thêm nhóm và điền các thông tin nhóm vào.
+
+Bước 2: chọn loại nhóm và các nội dung của nhóm.
+
+Bước 3: Cấu hình quyền hạn sử dụng module của trưởng nhóm và chọn Lưu.
+
+Khi thêm nhóm người dùng cần chú ý các vấn đề sau:
+
 * Các trường có dấu (*) là những trường bắt buộc người dùng phải nhập.
+
 * Trường "**Hiệu lực đến**" sẽ giúp người dùng muốn nhóm thành viên có quyền hạn sử dụng.
 * Mục loại nhóm sẽ cho phép người dùng chọn tính chất của loại nhóm.
 * Ở mục bắt buộc xác thực hai bước khu vực quản trị và ngoài site giúp người dùng tăng khả năng bảo mật của tài khoản, khi dùng chức năng này người dùng đăng nhập bằng tài khoản hệ thống sẽ xác nhận lại đăng nhập bằng tin nhắn hoặc là email. 
@@ -67,7 +100,13 @@ Quản lý giao diện là nơi người dùng có thể tùy chỉnh layout b�
 
 ### Sửa thông tin nhóm
 
-Để sửa thông tin nhóm người dùng chọn nhóm thành viên và chọn chế độ sửa , điền những thông tin muốn sửa và lưu những thông tin cần sửa cho phù hợp.
+Để sửa thông tin nhóm người dùng cần thao tác:
+
+Bước 1: Chọn nhóm thành viên và chọn chế độ sửa.
+
+Bước 2: Điền những thông tin muốn sửa và sửa.
+
+Bước 3: Lưu những thông tin cần sửa cho phù hợp.
 
 > (Lưu ý: chỉ những nhóm thành viên nào được cho phép phân quyền sửa mới được sửa).
 
@@ -87,7 +126,13 @@ Tương tự chức năng sửa nhóm người dùng chọn nhóm cần xóa và
 
 ### Thêm tài khoản
 
-Thêm tài khoản người dùng cần chọn vào mục thêm tài khoản mới, điền đầy đủ thông tin tài khoản và lưu tài khoản cần thêm. Khi thêm tài khoản người dùng cần lưu ý những chi tiết sau:
+Thêm tài khoản người dùng cần thao tác sau: 
+
+Bước 1: Thêm tài khoản người dùng cần chọn vào mục thêm tài khoản mới
+
+Bước 2: Điền đầy đủ thông tin tài khoản và lưu tài khoản cần thêm.
+
+Khi thêm tài khoản người dùng cần lưu ý những chi tiết sau:
 
 > * Tên tài khoản không được trùng với tài khoản khác.
 > * Những trường có dấu (*) là những trường bắt buộc người dùng phải nhập.
@@ -111,6 +156,13 @@ Sau khi chọn tài khoản và bchonj xóa hệ thống sẽ xác nhận lại 
 ### Thêm trường thông tin thành viên
 
 Để thêm trường thông tin thành viên người dùng cần chọn "**Tùy biến dữ liệu**" trong mục tài khoản.
+
+Bước 1: Điền các thông tin như tên trường, tiêu đề, mô tả và những trường bắt buộc nhập.
+
+Bước 2: Chọn kiểu dữ liệu và loại dữ liệu cho trường dữ liệu.
+
+Bước 3: Thêm các tùy chọn khác nếu cần và bấm lưu để lưu trường dữ liệu. 
+
 > Ở mục này người dùng cần lưu ý:
 > *  Những trường có dấu (*) là những trường bắt buộc người dùng phải nhập.
 > * Ở mục trường dữ liệu bắt buộc giúp người dùng tùy chỉnh trường dữ liệu có bắt buộc hay không ?
@@ -124,13 +176,16 @@ Sau khi chọn tài khoản và bchonj xóa hệ thống sẽ xác nhận lại 
 Để nhập danh sách thành viên từ file Excal, người dùng chọn "**Nhập từ Excal**" có trong mục tài khoản.
 
 ![](images/system/nhap_file_excel.png)
-Chọn tệp có chưa thông tin thành viên và bắt đầu kiểm tra, sau khi kiểm tra thành công người dùng sẽ tới bước cấu hình các tài khoản vừa được nhập vào. và cuối cùng là thực hiện lưu lạ danh sách các thành viên cần nhập vào.
+Bước 1: Chọn tệp có chứa thông tin thành viên và bắt đầu kiểm tra.
 
-> Lưu ý : Khi chọn tệp file Excel, file Excel phải chứa đúng định dạng. 
+Bước 2: Sau khi kiểm tra thành công người dùng sẽ tới bước cấu hình các tài khoản vừa được nhập vào. 
+
+Bước 3: Và cuối cùng là thực hiện lưu lạ danh sách các thành viên cần nhập vào.
+
+> Lưu ý : Khi chọn tệp file Excel, file Excel phải chứa đúng định dạng nhập vào. 
 ## Bổ nhiệm người quản trị
 
 Để bổ nhiệm một thành viên làm người quản trị, người dùng cần chọn tài khoản cần bổ nhiệm sau đó tích vào ô "**Là tài khoản của nhóm**" và chọn nhóm mà người dùng muốn bổ nhiệm.
 
 ![](images/system/bo_nhiem.png)
 
-quản lý giao dien co san
