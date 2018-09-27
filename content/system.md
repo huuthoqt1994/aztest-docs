@@ -91,12 +91,12 @@ Bước 3: Cấu hình quyền hạn sử dụng module của trưởng nhóm v�
 
 Khi thêm nhóm người dùng cần chú ý các vấn đề sau:
 
-* Các trường có dấu (*) là những trường bắt buộc người dùng phải nhập.
-
-* Trường "**Hiệu lực đến**" sẽ giúp người dùng muốn nhóm thành viên có quyền hạn sử dụng.
-* Mục loại nhóm sẽ cho phép người dùng chọn tính chất của loại nhóm.
-* Ở mục bắt buộc xác thực hai bước khu vực quản trị và ngoài site giúp người dùng tăng khả năng bảo mật của tài khoản, khi dùng chức năng này người dùng đăng nhập bằng tài khoản hệ thống sẽ xác nhận lại đăng nhập bằng tin nhắn hoặc là email. 
-* Ở mục quyền hạn sử dụng người dùng có thể phân quyền cho tài khoản.
+> * Các trường có dấu (*) là những trường bắt buộc người dùng phải nhập.
+> 
+> * Trường "**Hiệu lực đến**" sẽ giúp người dùng muốn nhóm thành viên có quyền hạn sử dụng.
+> * Mục loại nhóm sẽ cho phép người dùng chọn tính chất của loại nhóm.
+> * Ở mục bắt buộc xác thực hai bước khu vực quản trị và ngoài site giúp người dùng tăng khả năng bảo mật của tài khoản, khi dùng chức năng này người dùng đăng nhập bằng tài khoản hệ thống sẽ xác nhận lại đăng nhập bằng tin nhắn hoặc là email. 
+> * Ở mục quyền hạn sử dụng người dùng có thể phân quyền cho tài khoản.
 
 ### Sửa thông tin nhóm
 
