@@ -8,23 +8,20 @@ title: Quản trị hệ thống
 
 Trong mục cấu hình site chúng ta có thể cấu hình các phần như tên miền, tên gọi của website và ảnh của website ... 
 
-Sau khi cấu hình xong chúng ta chọn "**Lưu cấu hình**" để lưu cấu hình cài đặt.
+Sau khi cấu hình xong chúng ta chọn "**Lưu cấu hình**" để lưu các thay đổi.
 
 ## Cấu hình máy chủ gửi thư (Email)
-Mặc định khi chưa cáu hình email, website đã cấu hình gửi email cho khách hàng, nhưng khi gửi email tên người hoặc đơn vị sẽ là mặc định tên của máy chủ mail.
+Mặc định, website ó thể gửi thư đi bằng cấu hình gửi thư của AZtest. Nếu bạn muốn sử dụng máy chủ gửi thư riêng, thì có thể cấu hình lại máy chủ gửi mail theo hướng dẫn bên dưới.
 
-Để  cấu hình email theo đơn vị hoặc người hiện hành đang sử dụng chúng ta làm như sau.
-Cấu hình email gửi thư chúng ta cần vào "**Cấu hình site**" và chọn "**Cấu hình SMTP**", chọn giao thức SMPT và điền các thông số như hình hướng dẫn rồi lưu lại.
+1. Từ giao diện quản tri, truy cập **Cấu hình / Cấu hình SMTP**
+2. Chọn giao thức **SMPT** và điền các thông số như hình hướng dẫn rồi lưu lại.
 
 ![](images/system/cau_hinh_email.png)
 
-Lưu ý: 
-
-* Nếu sử dụng xác thực SSL thì chúng ta chọn cổng 465, xác thức TLS cổng 587.
-Tên tài khoản 
-* Tên tài khoản gửi mail là tên tài khoản email của người dùng.
-* Mật khẩu ứng dụng là mật khẩu ứng dụng email của người dùng, để tạo mật khẩu ứng dụng tìm hiểu kỹ hơn người dùng có thể tham khảo 
-[tại đây](https://vsoft.com.vn/Blog/huong-dan-lay-mat-khau-ung-dung-mail-de-gui-mail-smtp-15.html).
+```
+- Mỗi máy chủ gửi thư có thể có các cấu hình khác nhau, bạn cần xác định được các thông số trước khi khai báo
+- Tham khảo cấu hình gửi thư bằng Gmail tại (đây)[https://mynukeviet.net/su-dung-nukeviet/huong-dan-cau-hinh-gmail-smtp-cho-nukeviet-194.html]
+```
 
 ## Quản lý module
 Trong một hệ thống quản lý website có rất nhiều module và để quản lý được module người dùng muốn quản lý người dùng chọn menu "**Quản lý module**". Mục quản lý module giúp người dùng quản lý từng module nhỏ trong hệ thống website.
@@ -136,3 +133,4 @@ Lưu ý : Khi chọn tệp file Excel, file Excel phải chứa đúng định d
 
 ![](images/system/bo_nhiem.png)
 
+quản lý giao dien co san
