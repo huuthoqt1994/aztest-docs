@@ -28,7 +28,6 @@ Bước 2: Chọn giao thức SMPT và điền các thông số như hình hư�
 > Lưu ý: 
 > 
 > * Nếu sử dụng xác thực SSL thì chúng ta chọn cổng 465, xác thức TLS cổng 587.
-> Tên tài khoản 
 > * Tên tài khoản gửi mail là tên tài khoản email của người dùng.
 > * Mật khẩu ứng dụng là mật khẩu ứng dụng email của người dùng, để tạo mật khẩu ứng dụng tìm hiểu kỹ hơn người dùng có thể tham khảo.
 > [tại đây](https://vsoft.com.vn/Blog/huong-dan-lay-mat-khau-ung-dung-mail-de-gui-mail-smtp-15.html).
