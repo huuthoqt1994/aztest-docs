@@ -37,11 +37,23 @@ Và đây là giao diện khu vực quản trị của bạn.
 
 ## Thay đổi thông tin tài khoản
 
-- Click vào menu **Tài khoản** (Menu dọc, bên trái màn hình)
-- Tại danh sách **Tài khoản** thành viên, click biểu tượng **Sửa** ở cuối tên thành viên bạn muốn sửa đổi thông tin
-- Tiến hành điều chỉnh thông tin, sau đó nhấn nút **Lưu** ở cuối trang để kết thúc
+Bước 1: Click vào menu **Tài khoản** (Menu dọc, bên trái màn hình)
+
+Bước 2: Tại danh sách **Tài khoản** thành viên, click biểu tượng **Sửa** ở cuối tên thành viên bạn muốn sửa đổi thông tin
+
+Bước 3: Tiến hành điều chỉnh thông tin, sau đó nhấn nút **Lưu** ở cuối trang để kết thúc
 
 ![](images/start/sua_tai_khoan.png) 
+Lưu ý: 
+> Các trường có dấu (*) là những trường bắt buộc người dùng phải nhập.
+> 
+> Trường "Hiệu lực đến" sẽ giúp người dùng muốn nhóm thành viên có quyền hạn sử dụng.
+> 
+> Mục loại nhóm sẽ cho phép người dùng chọn tính chất của loại nhóm.
+> 
+> Ở mục bắt buộc xác thực hai bước khu vực quản trị và ngoài site giúp người dùng tăng khả năng bảo mật của tài khoản, khi dùng chức năng này người dùng đăng nhập bằng tài khoản hệ thống sẽ xác nhận lại đăng nhập bằng tin nhắn hoặc là email.
+> 
+> Ở mục quyền hạn sử dụng người dùng có thể phân quyền cho tài khoản.
 
 ## Chuyển đổi gói dịch vụ
 
